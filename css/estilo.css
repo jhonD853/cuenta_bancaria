@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+header{
+    text-align: center;
+    font-size: 30px;
+}
+body{
+    font-family: 'Braah One', sans-serif;
+    background-color: #1eae08ae;
+    color: #efb810;
+    margin: auto;
+    width: 300px;
+    padding: 100px;
+    border-radius: 50px;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+}
+.cuenta{
+    border: 2px solid #111010;
+    border-radius: 50px;
+    text-align: center;   
+}
+.retiro{
+    border: 2px solid #111010;
+    border-radius: 10px;
+    width: 300px;
+    height: 230px;
+    display: flexbox;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    text-align: center;   
+}
+.retiro :hover{
+    opacity: .8;
+    transition: .5s ease;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.movimiento{
+    color: #8B0000;
+}
+.contenedor-principal{
+    display: flexbox;
+    
+}
+.flag{
+    width: 300px;
+    height: 150px;
+    display: flex-end;
+}
